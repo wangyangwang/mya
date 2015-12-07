@@ -1,0 +1,11 @@
+# Site settings
+title: YANG WANG | 汪洋
+email: yang.wang.dec@gmail.com
+twitter_username: "@iamyangwang"
+description: > # YANG WANG is a New York based new media artist and creative technologist.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yangwang.info/" # the base hostname & protocol for your site
+github_username: wangyangwang
+
+# Build settings
+markdown: kramdown

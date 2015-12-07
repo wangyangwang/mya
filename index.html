@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<script type="text/javascript">
+jQuery.ajax({
+	url: 'http://yangwang.info/upcomingexhibitions',
+	type: 'GET',
+
+	success:function(data){
+		$('#ajaxContainer').html(data);
+	},
+	error: function(err){
+		//
+	}});
+</script>
+
+<div id="ajaxContainer">
+</div>
